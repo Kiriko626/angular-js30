@@ -1,0 +1,10 @@
+<div class="canvas-component" #canvasContainer>
+    <canvas
+        #draw
+        (mousedown)="onMouseDown($event)"
+        (mousemove)="onMouseMove($event)"
+        (mouseup)="disableDrawing()"
+        (mouseout)="disableDrawing()"
+
+    ></canvas>
+</div>
