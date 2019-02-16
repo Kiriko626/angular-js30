@@ -1,0 +1,23 @@
+<div>
+    <mat-toolbar color="primary" class="mat-elevation-z8 app-component">
+        <a routerLink="/" class="app-component__link"><span>JavaScript 30 days</span></a>
+
+        <span class="app-component__spacer"></span>
+        <button mat-icon-button [mat-menu-trigger-for]="menu">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <button mat-icon-button>
+            <mat-icon>info</mat-icon>
+        </button>
+    </mat-toolbar>
+    <mat-menu x-position="before" #menu="matMenu">
+        <a routerLink="/drum"><button mat-menu-item>Drum Machine</button></a>
+        <a routerLink="/canvas"><button mat-menu-item>Canvas</button></a>
+        <a routerLink="/clock"><button mat-menu-item>Clock</button></a>
+    </mat-menu>
+
+    <router-outlet></router-outlet>
+
+
+
+</div>
