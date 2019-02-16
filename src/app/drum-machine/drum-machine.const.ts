@@ -9,65 +9,65 @@ export interface IDrumItem {
 export const drumItems: IDrumItem[] = [
     {
         key: 97,
-        audio:'clap.wav',
+        audio: 'clap.wav',
         isPlaying: false,
-        text:'clap',
+        text: 'clap',
         title: 'A'
     },
     {
         key: 115,
-        audio:'hihat.wav',
+        audio: 'hihat.wav',
         isPlaying: false,
-        text:'hihat',
+        text: 'hihat',
         title: 'S'
     },
     {
         key: 100,
-        audio:'kick.wav',
+        audio: 'kick.wav',
         isPlaying: false,
-        text:'kick',
+        text: 'kick',
         title: 'D'
     },
     {
         key: 102,
-        audio:'openhat.wav',
+        audio: 'openhat.wav',
         isPlaying: false,
-        text:'openhat',
+        text: 'openhat',
         title: 'F'
     },
     {
         key: 103,
-        audio:'boom.wav',
+        audio: 'boom.wav',
         isPlaying: false,
-        text:'boom',
+        text: 'boom',
         title: 'G'
     },
     {
         key: 104,
-        audio:'ride.wav',
+        audio: 'ride.wav',
         isPlaying: false,
-        text:'ride',
+        text: 'ride',
         title: 'H'
     },
     {
         key: 106,
-        audio:'snare.wav',
+        audio: 'snare.wav',
         isPlaying: false,
-        text:'snare',
+        text: 'snare',
         title: 'J'
     },
     {
         key: 107,
-        audio:'tom.wav',
+        audio: 'tom.wav',
         isPlaying: false,
-        text:'tom',
+        text: 'tom',
         title: 'K'
     },
     {
         key: 108,
-        audio:'tink.wav',
+        audio: 'tink.wav',
         isPlaying: false,
-        text:'tink',
+        text: 'tink',
         title: 'L'
     },
 

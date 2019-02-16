@@ -4,7 +4,7 @@ import { drumItems, IDrumItem } from "./drum-machine.const";
 
 @Component({
     selector: 'drum-machine',
-    templateUrl:'./drum-machine.component.html',
+    templateUrl: './drum-machine.component.html',
     styleUrls: ['./drum-machine.component.styl']
 })
 export class DrumMachineComponent {
