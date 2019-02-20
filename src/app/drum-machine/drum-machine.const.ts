@@ -69,6 +69,5 @@ export const drumItems: IDrumItem[] = [
         isPlaying: false,
         text: 'tink',
         title: 'L'
-    },
-
+    }
 ];

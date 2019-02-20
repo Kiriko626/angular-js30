@@ -11,14 +11,10 @@
         </button>
     </mat-toolbar>
     <mat-menu x-position="before" #menu="matMenu">
-        <a routerLink="/drum">
-            <button mat-menu-item>Drum Machine</button>
-        </a>
-        <a routerLink="/canvas">
-            <button mat-menu-item>Canvas</button>
-        </a>
-        <a routerLink="/clock">
-            <button mat-menu-item>Clock</button>
+        <a
+            *ngFor="let item of projects"
+            routerLink="{{item.routerLink}}">
+            <button mat-menu-item>{{item.title}}</button>
         </a>
     </mat-menu>
 

@@ -4,6 +4,9 @@ import { DrumMachineComponent } from "./drum-machine/drum-machine.component";
 import { HomeComponent } from "./home/home.component";
 import { CanvasComponent } from "./canvas/canvas.component";
 import { ClockComponent } from "./clock/clock.component";
+import { FlexPanelComponent } from "./flex-panel/flex-panel.component";
+import { SortArticleComponent } from "./sort-article/sort-article.component";
+import { MultipleCheckboxesComponent } from "./multiple-checkboxes/multiple-checkboxes.component";
 
 const routes: Routes = [
     {
@@ -21,6 +24,18 @@ const routes: Routes = [
     {
         path: 'clock',
         component: ClockComponent
+    },
+    {
+        path: 'flex',
+        component: FlexPanelComponent
+    },
+    {
+        path: 'sort-without-article',
+        component: SortArticleComponent
+    },
+    {
+        path:'multiple-checkboxes',
+        component: MultipleCheckboxesComponent
     }
 ];
 

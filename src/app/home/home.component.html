@@ -1,35 +1,16 @@
 <mat-grid-list class="home-component" cols="4">
-    <mat-grid-tile>
+    <mat-grid-tile
+            *ngFor="let card of allCards"
+    >
         <mat-card class="home-component__card">
-            <a routerLink="/drum">
-                <img mat-card-image src="assets/prev-drum.png"
-                     alt="Photo of a Shiba Inu">
+            <a routerLink="{{card.routerLink}}">
+                <img mat-card-image src="assets/{{card.preview}}"
+                     alt="{{card.title}}">
             </a>
             <mat-card-content>
-                <p>День первый. Драм-машина просто написанная на Javascript</p>
+                <p>{{card.description}}</p>
             </mat-card-content>
         </mat-card>
     </mat-grid-tile>
-    <mat-grid-tile>
-        <mat-card class="home-component__card">
-            <a routerLink="/clock">
-                <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg"
-                     alt="Photo of a Shiba Inu">
-            </a>
-            <mat-card-content>
-                <p>День второй. Часы</p>
-            </mat-card-content>
-        </mat-card>
-    </mat-grid-tile>
-    <mat-grid-tile>
-        <mat-card class="home-component__card">
-            <a routerLink="/canvas">
-                <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg"
-                     alt="Photo of a Shiba Inu">
-            </a>
-            <mat-card-content>
-                <p>День восьмой. Холст на котором можно рисовать радугой</p>
-            </mat-card-content>
-        </mat-card>
-    </mat-grid-tile>
+
 </mat-grid-list>
