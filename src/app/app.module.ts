@@ -9,6 +9,9 @@ import { DrumMachineComponent } from "./drum-machine/drum-machine.component";
 import { CanvasComponent } from './canvas/canvas.component';
 import { HomeComponent } from './home/home.component';
 import { ClockComponent } from './clock/clock.component';
+import { FlexPanelComponent } from './flex-panel/flex-panel.component';
+import { SortArticleComponent } from './sort-article/sort-article.component';
+import { MultipleCheckboxesComponent } from './multiple-checkboxes/multiple-checkboxes.component';
 
 @NgModule({
     declarations: [
@@ -16,7 +19,10 @@ import { ClockComponent } from './clock/clock.component';
         DrumMachineComponent,
         CanvasComponent,
         HomeComponent,
-        ClockComponent
+        ClockComponent,
+        FlexPanelComponent,
+        SortArticleComponent,
+        MultipleCheckboxesComponent
     ],
     imports: [
         BrowserModule,
