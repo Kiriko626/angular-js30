@@ -12,6 +12,7 @@ import { ClockComponent } from './clock/clock.component';
 import { FlexPanelComponent } from './flex-panel/flex-panel.component';
 import { SortArticleComponent } from './sort-article/sort-article.component';
 import { MultipleCheckboxesComponent } from './multiple-checkboxes/multiple-checkboxes.component';
+import { VariablesComponent } from './variables/variables.component';
 
 @NgModule({
     declarations: [
@@ -22,7 +23,8 @@ import { MultipleCheckboxesComponent } from './multiple-checkboxes/multiple-chec
         ClockComponent,
         FlexPanelComponent,
         SortArticleComponent,
-        MultipleCheckboxesComponent
+        MultipleCheckboxesComponent,
+        VariablesComponent
     ],
     imports: [
         BrowserModule,

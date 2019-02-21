@@ -7,6 +7,7 @@ import { ClockComponent } from "./clock/clock.component";
 import { FlexPanelComponent } from "./flex-panel/flex-panel.component";
 import { SortArticleComponent } from "./sort-article/sort-article.component";
 import { MultipleCheckboxesComponent } from "./multiple-checkboxes/multiple-checkboxes.component";
+import { VariablesComponent } from "./variables/variables.component";
 
 const routes: Routes = [
     {
@@ -36,6 +37,10 @@ const routes: Routes = [
     {
         path:'multiple-checkboxes',
         component: MultipleCheckboxesComponent
+    },
+    {
+        path:'css-variables',
+        component: VariablesComponent
     }
 ];
 

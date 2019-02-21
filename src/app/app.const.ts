@@ -41,5 +41,11 @@ export const ALL_PROJECTS: IProject[] = [
         description: 'С помощью кнопки Shift можно выделить сразу несколько чекбоксов',
         preview: 'placeholder.jpg',
         routerLink: '/multiple-checkboxes'
+    },
+    {
+        title: 'Изменение свойств CSS с помощью JS',
+        description: 'Изменение свойств CSS с помощью JS',
+        preview: 'placeholder.jpg',
+        routerLink: '/css-variables'
     }
 ];

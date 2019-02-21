@@ -1,0 +1,30 @@
+<div class="variables-component" #comp>
+  <h2>Update CSS Variables with <span class='variables-component__title'>JS</span></h2>
+
+  <div class="variables-component__controls">
+    <div *ngFor="let item of allVariables">
+      <label for="{{item.name}}">{{item.label}}</label>
+      <input
+          *ngIf="item.isRange"
+          id="{{item.name}}"
+          type="range"
+          name="{{item.name}}"
+          min="{{item.min}}"
+          max="{{item.max}}"
+          value="{{item.value}}"
+          (input)="onInput(item, $event)"
+      >
+
+      <input
+          *ngIf="!item.isRange"
+          type="color"
+          id="{{item.name}}"
+          name="{{item.name}}"
+          value="{{item.value}}"
+          (input)="onInput(item, $event)"
+      >
+    </div>
+  </div>
+
+  <img src="/assets/placeholder.jpg">
+</div>
