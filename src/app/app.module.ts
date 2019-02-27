@@ -13,6 +13,7 @@ import { FlexPanelComponent } from './flex-panel/flex-panel.component';
 import { SortArticleComponent } from './sort-article/sort-article.component';
 import { MultipleCheckboxesComponent } from './multiple-checkboxes/multiple-checkboxes.component';
 import { VariablesComponent } from './variables/variables.component';
+import { TypeAheadComponent } from './type-ahead/type-ahead.component';
 
 @NgModule({
     declarations: [
@@ -24,7 +25,8 @@ import { VariablesComponent } from './variables/variables.component';
         FlexPanelComponent,
         SortArticleComponent,
         MultipleCheckboxesComponent,
-        VariablesComponent
+        VariablesComponent,
+        TypeAheadComponent
     ],
     imports: [
         BrowserModule,

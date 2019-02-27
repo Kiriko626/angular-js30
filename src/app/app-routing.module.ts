@@ -8,26 +8,27 @@ import { FlexPanelComponent } from "./flex-panel/flex-panel.component";
 import { SortArticleComponent } from "./sort-article/sort-article.component";
 import { MultipleCheckboxesComponent } from "./multiple-checkboxes/multiple-checkboxes.component";
 import { VariablesComponent } from "./variables/variables.component";
+import { TypeAheadComponent } from "./type-ahead/type-ahead.component";
 
 const routes: Routes = [
     {
-        path: '',
+        path:'',
         component: HomeComponent
     },
     {
-        path: 'drum',
+        path:'drum',
         component: DrumMachineComponent
     },
     {
-        path: 'canvas',
+        path:'canvas',
         component: CanvasComponent
     },
     {
-        path: 'clock',
+        path:'clock',
         component: ClockComponent
     },
     {
-        path: 'flex',
+        path:'flex',
         component: FlexPanelComponent
     },
     {
@@ -41,6 +42,10 @@ const routes: Routes = [
     {
         path:'css-variables',
         component: VariablesComponent
+    },
+    {
+        path:'type-ahead',
+        component: TypeAheadComponent
     }
 ];
 
